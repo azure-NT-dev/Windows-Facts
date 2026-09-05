@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -39,7 +39,7 @@ int main() {
     std::cout << "\033[2J\033[1;1H\033[0m";
 
     std::cout << "\033[1;36m====================================================\033[0m\n";
-    std::cout << "\033[1;37m        RANDOM FACTS GAME: WINDOWS EDITION          \033[0m\n";
+    std::cout << "\033[1;37m        RANDOM FACTS: WINDOWS EDITION          \033[0m\n";
     std::cout << "\033[1;36m====================================================\033[0m\n\n";
 
     std::string terminal_env = get_clean_terminal_name();
